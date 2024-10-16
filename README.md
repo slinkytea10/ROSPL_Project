@@ -1,2 +1,2 @@
-# yuva-feedback
+# MGM Feedback 
 Online Student Teacher Feedback System
