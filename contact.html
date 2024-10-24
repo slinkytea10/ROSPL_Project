@@ -1,0 +1,33 @@
+{% extends 'Home/index.html' %} 
+{% block content %}
+<div class="container mt-5">
+  <h1 class="text-center mb-4">Contact Us</h1>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Get in Touch</h5>
+      <p class="card-text">If you have any questions or feedback, feel free to reach out to us!</p>
+
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Your Email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+
+      <hr class="my-4" />
+      <h5>Contact Details:</h5>
+      <p>Email: support@mgmfeedback.com</p>
+      <p>Phone: +91 9987654657</p>
+    </div>
+  </div>
+</div>
+{% endblock content %}
